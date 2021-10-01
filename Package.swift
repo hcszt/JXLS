@@ -13,6 +13,7 @@ let package = Package(
             name: "JXLS",
             path: ".",
             exclude: [
+                "External",
                 "Info.plist",
                 "LICENSE",
                 "README.md"

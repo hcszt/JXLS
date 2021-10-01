@@ -14,6 +14,8 @@ let package = Package(
             path: ".",
             exclude: [
                 "External",
+                "TestJXLS",
+                "TestJXLSiOS",
                 "Info.plist",
                 "LICENSE",
                 "README.md"

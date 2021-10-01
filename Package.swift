@@ -14,11 +14,18 @@ let package = Package(
             path: ".",
             exclude: [
                 "External",
+                "JXLSiOS/Info.plist",
+                "JXLSiOSTests",
                 "TestJXLS",
                 "TestJXLSiOS",
                 "Info.plist",
+                "JXLS.podspec",
+                "JXLS_Prefix.pch",
+                "JXLS_Prefix_iOS.pch",
                 "LICENSE",
-                "README.md"
+                "README.md",
+                "StandardObjectiveC++.xcconfig",
+                "StandardObjectiveC.xcconfig"
             ]
         )
     ]
